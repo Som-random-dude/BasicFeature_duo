@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Product Gallery</h1>
+
+        <input type="text" id="searchInput" placeholder="Search products...">
+
+        <div class="categories">
+            <button data-category="all" class="active">All</button>
+            <button data-category="electronics">Electronics</button>
+            <button data-category="clothes">Clothes</button>
+            <button data-category="home">Home</button>
+        </div>
+    </header>
+
+    <main class="product-grid">
+
+        <div class="product-card" data-category="electronics">
+            <img src="https://via.placeholder.com/150" alt="">
+            <h3>Smartphone</h3>
+            <p>$399</p>
+        </div>
+
+        <div class="product-card" data-category="electronics">
+            <img src="https://via.placeholder.com/150" alt="">
+            <h3>Headphones</h3>
+            <p>$149</p>
+        </div>
+
+        <div class="product-card" data-category="clothes">
+            <img src="https://via.placeholder.com/150" alt="">
+            <h3>Jacket</h3>
+            <p>$89</p>
+        </div>
+
+        <div class="product-card" data-category="home">
+            <img src="https://via.placeholder.com/150" alt="">
+            <h3>Chair</h3>
+            <p>$59</p>
+        </div>
+
+        <div class="product-card" data-category="clothes">
+            <img src="https://via.placeholder.com/150" alt="">
+            <h3>T-Shirt</h3>
+            <p>$19</p>
+        </div>
+
+        <div class="product-card" data-category="home">
+            <img src="https://via.placeholder.com/150" alt="">
+            <h3>Table Lamp</h3>
+            <p>$34</p>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
